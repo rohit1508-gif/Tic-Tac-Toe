@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFrag">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="391dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/grid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_row0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView">
+
+        <ImageView
+            android:id="@+id/tile00"
+            android:layout_width="110dp"
+            android:layout_height="113dp"
+            android:clickable="true"
+            android:padding="18dp"
+            android:src="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/tile01"
+            android:layout_width="103dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="15dp"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/tile02"
+            android:layout_width="110dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:padding="19dp"
+            android:src="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_row0">
+
+        <ImageView
+            android:id="@+id/tile10"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="16dp"
+            android:src="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/tile11"
+            android:layout_width="103dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="14dp"
+            android:src="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/tile12"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="16dp"
+            android:src="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_row1">
+
+        <ImageView
+            android:id="@+id/tile20"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="18dp"
+            android:src="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/tile21"
+            android:layout_width="103dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/tile22"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="19dp"
+            android:src="@android:color/transparent" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

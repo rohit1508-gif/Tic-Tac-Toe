@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">\tTic Tac Toe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_to_tic_tac_toe">Welcome to Tic -Tac -Toe</string>
+    <string name="player_details">Players\' Names</string>
+    <string name="player_x">Player X:</string>
+    <string name="marks_first">marks first</string>
+    <string name="vs">VS</string>
+    <string name="player_o">Player O:</string>
+    <string name="marks_second">marks second</string>
+    <string name="game_on">GAME ON</string>
+</resources>
