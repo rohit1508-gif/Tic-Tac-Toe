@@ -32,7 +32,7 @@ public class LoginFrag extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        btnGameOn = (Button) this.getActivity().findViewById(R.id.btnGameOn);
+        initialization();
         etPlayerO = (EditText) this.getActivity().findViewById(R.id.etPlayerO);
         etPlayerX = (EditText) this.getActivity().findViewById(R.id.etPlayerX);
         tvHeading = (TextView) this.getActivity().findViewById(R.id.tvHeading);
@@ -71,4 +71,7 @@ public class LoginFrag extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_login, container, false);
     }
+    public void initialization(){
+        btnGameOn = (Button) this.getActivity().findViewById(R.id.btnGameOn);
+    }     
 }
