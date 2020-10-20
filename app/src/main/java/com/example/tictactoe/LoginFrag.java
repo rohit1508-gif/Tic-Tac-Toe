@@ -73,5 +73,7 @@ public class LoginFrag extends Fragment {
     public void initialization(){
         btnGameOn = (Button) this.getActivity().findViewById(R.id.btnGameOn);
          etPlayerO = (EditText) this.getActivity().findViewById(R.id.etPlayerO);
+         etPlayerX = (EditText) this.getActivity().findViewById(R.id.etPlayerX);
+        tvHeading = (TextView) this.getActivity().findViewById(R.id.tvHeading);
     }     
 }
